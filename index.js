@@ -104,7 +104,7 @@ async function run() {
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  const hi = "hello Biker, What's up? arick";
+  const hi = "hello dear Biker, What's up? arick";
   res.send(hi);
 });
 app.listen(port, () => {
