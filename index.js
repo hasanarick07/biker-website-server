@@ -108,5 +108,5 @@ app.get("/", (req, res) => {
   res.send(hi);
 });
 app.listen(port, () => {
-  console.log("port running Arick", port);
+  console.log("port is running Arick", port);
 });
